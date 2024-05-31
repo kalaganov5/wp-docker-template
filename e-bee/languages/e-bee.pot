@@ -1,0 +1,513 @@
+# Copyright (C) 2024 https://kalaganov5.com/
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: e-bee 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/e-bee\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-19T11:33:46+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: e-bee\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "e-bee"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://kalaganov5.com/"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:48
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+msgid "Ask your question to&nbsp;<span style=\"white-space: nowrap;\">E-bee</span> tech support"
+msgstr ""
+
+#: footer.php:57
+#: header.php:261
+msgid "E-bee – Your socket anywhere in town"
+msgstr ""
+
+#: footer.php:79
+#: page-download.php:34
+#: page-main.php:49
+#: page-main.php:483
+msgid "Download on Google Play"
+msgstr ""
+
+#: footer.php:91
+#: page-download.php:45
+#: page-main.php:72
+#: page-main.php:506
+msgid "Download on the App Store"
+msgstr ""
+
+#: footer.php:142
+msgid " <span style=\"white-space: nowrap;\">E-bee</span>. All rights reserved"
+msgstr ""
+
+#: footer.php:144
+msgid "<a href=\"/privacy\">Privacy policy</a>"
+msgstr ""
+
+#: footer.php:155
+msgid "Scan the&nbsp;QR code to&nbsp;download the app "
+msgstr ""
+
+#: footer.php:164
+msgid "For new users, the first 30&nbsp;minutes are free."
+msgstr ""
+
+#: footer.php:168
+msgid "Close this dialog window"
+msgstr ""
+
+#: footer.php:170
+msgid "Close"
+msgstr ""
+
+#: footer.php:183
+msgid "Scan the&nbsp;QR code for a&nbsp;30-minute free trial for new users."
+msgstr ""
+
+#: functions.php:65
+msgid "LP Main menu"
+msgstr ""
+
+#: functions.php:66
+msgid "Second menu"
+msgstr ""
+
+#: header.php:249
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:267
+msgid "Open/Close mobile menu"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:66
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:73
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:83
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100
+#: template-parts/content-page.php:39
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: page-download.php:23
+msgid ""
+"\n"
+"                    Please download the application using the links below"
+msgstr ""
+
+#: page-main.php:25
+msgid "Charge via <span style=\"white-space: nowrap;\">E-bee</span>, wherever you may&nbsp;be!"
+msgstr ""
+
+#: page-main.php:32
+msgid "Your socket anywhere in&nbsp;town. Rent an&nbsp;<span style=\"white-space: nowrap;\">E-bee</span> powerbank for the price of&nbsp;a&nbsp;soda"
+msgstr ""
+
+#: page-main.php:41
+msgid "Download the app and go&nbsp;wherever you like!"
+msgstr ""
+
+#: page-main.php:60
+#: page-main.php:494
+msgid "Scan the&nbsp;QR code to&nbsp;download the app"
+msgstr ""
+
+#: page-main.php:92
+msgid "E-Bee powerbank Station"
+msgstr ""
+
+#: page-main.php:101
+msgid "Advantages of&nbsp;powebank <span style=\"white-space: nowrap;\">E-bee</span>"
+msgstr ""
+
+#: page-main.php:106
+msgid ""
+"With <span style=\"white-space: nowrap;\">E-bee</span> charging, you can play, work, travel and use your smartphone whenever and wherever\n"
+"                        you want."
+msgstr ""
+
+#: page-main.php:117
+#: page-main.php:285
+msgid "Back"
+msgstr ""
+
+#: page-main.php:124
+#: page-main.php:292
+msgid "Forward"
+msgstr ""
+
+#: page-main.php:136
+msgid "145g"
+msgstr ""
+
+#: page-main.php:141
+msgid "Lightweight"
+msgstr ""
+
+#: page-main.php:145
+msgid "Like 2&nbsp;bars of&nbsp;chocolate"
+msgstr ""
+
+#: page-main.php:154
+msgid "3&nbsp;cables"
+msgstr ""
+
+#: page-main.php:159
+msgid "Universal"
+msgstr ""
+
+#: page-main.php:163
+msgid "iOS, Type-C, Micro"
+msgstr ""
+
+#: page-main.php:172
+msgid "1%/min"
+msgstr ""
+
+#: page-main.php:177
+msgid "Fast"
+msgstr ""
+
+#: page-main.php:181
+msgid "just as&nbsp;fast as&nbsp;an&nbsp;socket"
+msgstr ""
+
+#: page-main.php:190
+msgid "5000mAh"
+msgstr ""
+
+#: page-main.php:195
+msgid "Powerful"
+msgstr ""
+
+#: page-main.php:199
+msgid "That&rsquo;s 2&nbsp;full charges"
+msgstr ""
+
+#: page-main.php:215
+msgid "Rent a&nbsp;powerbank while you&rsquo;re"
+msgstr ""
+
+#: page-main.php:219
+msgid "Don't worry if your battery is running low . Rent a powerbank while you're leveling up in a game, studying notes, attending a business meeting, or traveling - there are hundreds of stations across the country. Adventures shouldn't stop because of a drained device!"
+msgstr ""
+
+#: page-main.php:226
+msgid "<span>attending a&nbsp;business meeting</span>"
+msgstr ""
+
+#: page-main.php:228
+msgid "<span>leveling up&nbsp;in&nbsp;a&nbsp;game</span>"
+msgstr ""
+
+#: page-main.php:230
+msgid "<span>studying notes</span>"
+msgstr ""
+
+#: page-main.php:232
+msgid "<span class=\"pc-only\">or</span>"
+msgstr ""
+
+#: page-main.php:234
+msgid "<span>traveling </span>"
+msgstr ""
+
+#: page-main.php:248
+msgid "E-bee"
+msgstr ""
+
+#: page-main.php:254
+msgid "Moreover, with the help of&nbsp;a&nbsp;powerbank, you can charge your watch, tablet, headphones, and even keep children entertained with various gadgets. Stay connected and comfortable in&nbsp;any situation, thanks to&nbsp;the convenient and compact powerbank!"
+msgstr ""
+
+#: page-main.php:261
+msgid "<span class=\"bold\">We&nbsp;operate throughout Estonia and soon you will be&nbsp;able to&nbsp;find&nbsp;us in&nbsp;other European countries.</span>"
+msgstr ""
+
+#: page-main.php:274
+msgid "Renting a&nbsp;powerbank <span style=\"white-space: nowrap;\">E-bee</span> is&nbsp;just simple"
+msgstr ""
+
+#: page-main.php:318
+msgid "Download the app from the App Store or Google Play."
+msgstr ""
+
+#: page-main.php:327
+msgid "Download the app"
+msgstr ""
+
+#: page-main.php:329
+msgid "Registration requires only an&nbsp;email and a&nbsp;bank card."
+msgstr ""
+
+#: page-main.php:355
+msgid "Find your nearest E-Bee Station."
+msgstr ""
+
+#: page-main.php:364
+msgid "Find your spot"
+msgstr ""
+
+#: page-main.php:366
+msgid "Locate an&nbsp;<span style=\"white-space: nowrap;\">E-bee</span> powerbank station on&nbsp;the map and scan the&nbsp;QR code."
+msgstr ""
+
+#: page-main.php:393
+msgid "Grab and charge anywhere in the city with our powerbank."
+msgstr ""
+
+#: page-main.php:402
+msgid "Grab and charge"
+msgstr ""
+
+#: page-main.php:404
+msgid "You can use the powerbank at&nbsp;any location across the city."
+msgstr ""
+
+#: page-main.php:431
+msgid "Find a convenient drop-off point on the map to end your lease."
+msgstr ""
+
+#: page-main.php:440
+msgid "Easy return"
+msgstr ""
+
+#: page-main.php:442
+msgid "Find a&nbsp;convenient point to&nbsp;return to&nbsp;on&nbsp;the map and finalize the lease."
+msgstr ""
+
+#: page-main.php:458
+msgid "Price rent <span style=\"white-space: nowrap;\">E-bee</span> powerbank"
+msgstr ""
+
+#: page-main.php:463
+msgid "1.49&nbsp;&euro;&nbsp;/ hour"
+msgstr ""
+
+#: page-main.php:465
+msgid "6&nbsp;&euro;&nbsp;/ 24&nbsp;hours"
+msgstr ""
+
+#: page-main.php:469
+msgid "Don&rsquo;t let your energy drop, <span style=\"white-space: nowrap;\">E-bee</span> keeps you on&nbsp;top, non-stop!"
+msgstr ""
+
+#: page-main.php:475
+msgid "Install the app"
+msgstr ""
+
+#: page-main.php:521
+msgid "Get a&nbsp;charging station installed for free at&nbsp;your establishment"
+msgstr ""
+
+#: page-main.php:535
+msgid "E-bee station"
+msgstr ""
+
+#: page-main.php:540
+msgid "We&nbsp;will provide a&nbsp;complete range of&nbsp;technical maintenance and customer support. Our stations will be&nbsp;relevant everywhere&nbsp;&mdash; from small cafes to&nbsp;large retail chains."
+msgstr ""
+
+#: page-main.php:547
+msgid "Contact&nbsp;us"
+msgstr ""
+
+#: page-main.php:560
+msgid "FAQ"
+msgstr ""
+
+#: page-main.php:566
+msgid "<span class=\"spoiler__counter\">01</span> <span>How much does renting an&nbsp;<span style=\"white-space: nowrap;\">E-bee</span> powerbank cost?</span>"
+msgstr ""
+
+#: page-main.php:573
+msgid "<p>For the first registration, the first 30&nbsp;minutes are free of&nbsp;charge. Thereafter, the rental fee is&nbsp;1.49&euro; per hour. To&nbsp;calculate the full rental price, select an&nbsp;<span style=\"white-space: nowrap;\">E-bee</span> charging station in&nbsp;the app.</p>"
+msgstr ""
+
+#: page-main.php:582
+msgid "<span class=\"spoiler__counter\">02</span> <span>How to&nbsp;use <span style=\"white-space: nowrap;\">E-bee</span> powerbank rental?</span>"
+msgstr ""
+
+#: page-main.php:589
+msgid ""
+"<ol>\n"
+"                                    <li>Download the E-bee app from the AppStore or&nbsp;Google Play and register (you only need an&nbsp;email address (or&nbsp;phone number) and a&nbsp;credit card).</li>\n"
+"                                    <li>Find a&nbsp;convenient rental point on&nbsp;the map.</li>\n"
+"                                    <li>Go&nbsp;there and find a&nbsp;station with the inscription &laquo;<span style=\"white-space: nowrap;\">E-bee</span>&raquo;.</li>\n"
+"                                    <li>Scan the&nbsp;QR code on&nbsp;the station using the app.</li>\n"
+"                                    <li>Pay for the rental in&nbsp;the app.</li>\n"
+"                                    <li>Take the powerbank and go&nbsp;wherever you want.</li>\n"
+"                                    <li>You can return the powerbank at&nbsp;a&nbsp;convenient point on&nbsp;the map. Open the app and we&nbsp;will show you the available places to&nbsp;end the rental.</li>\n"
+"                                </ol>"
+msgstr ""
+
+#: page-main.php:606
+msgid "<span class=\"spoiler__counter\">03</span> <span>Where can&nbsp;I rent a&nbsp;powerbank?</span>"
+msgstr ""
+
+#: page-main.php:613
+msgid "<p>You can find available powerbanks in&nbsp;the E-bee app</p>"
+msgstr ""
+
+#: page-main.php:622
+msgid "<span class=\"spoiler__counter\">04</span> <span>What to&nbsp;do&nbsp;if&nbsp;you lose or&nbsp;damage a&nbsp;rental powerbank?</span>"
+msgstr ""
+
+#: page-main.php:629
+msgid ""
+"<p>If&nbsp;the powerbank is&nbsp;returned damaged or&nbsp;in&nbsp;a&nbsp;non-working condition, a&nbsp;fee equal to&nbsp;the cost of&nbsp;repair or&nbsp;the value of&nbsp;the powerbank will be&nbsp;charged, in&nbsp;case of&nbsp;loss the amount will be&nbsp;30&nbsp;&euro;.</p>\n"
+"<p>Until the powerbank is&nbsp;returned to&nbsp;the point, you will not be&nbsp;refunded the deposit in&nbsp;the app.</p>"
+msgstr ""
+
+#: page-main.php:639
+msgid "<span class=\"spoiler__counter\">05</span> <span>What to&nbsp;do&nbsp;if&nbsp;you are unable to&nbsp;return a&nbsp;rental powerbank?</span>"
+msgstr ""
+
+#: page-main.php:646
+msgid "<p>If&nbsp;you are unable to&nbsp;return a&nbsp;rental powerbank for any reason, you should contact <span style=\"white-space: nowrap;\">E-bee</span> customer service as&nbsp;soon as&nbsp;possible.</p>"
+msgstr ""
+
+#: page-main.php:655
+msgid "<span class=\"spoiler__counter\">06</span> <span>Do&nbsp;you need a&nbsp;deposit to&nbsp;rent a&nbsp;powerbank and what documents are required to&nbsp;rent a&nbsp;powerbank?</span>"
+msgstr ""
+
+#: page-main.php:662
+msgid ""
+"<p>You don&rsquo;t need any documents to&nbsp;rent a&nbsp;powerbank.</p>\n"
+"                                <p>A&nbsp;deposit will be&nbsp;reserved on&nbsp;your card before you rent the powerbank.</p>"
+msgstr ""
+
+#: page-main.php:672
+msgid "<span class=\"spoiler__counter\">07</span> <span>What to&nbsp;do&nbsp;if&nbsp;your rental powerbank won&rsquo;t charge your phone?</span>"
+msgstr ""
+
+#: page-main.php:679
+#: page-main.php:695
+msgid "<p>Contact customer service by <a href=\"#support\">phone or e-mail</a></p>"
+msgstr ""
+
+#: page-main.php:688
+msgid "<span class=\"spoiler__counter\">08</span> <span>How to&nbsp;extend your powerbank lease?</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:23
+msgid "Previous:"
+msgstr ""
+
+#: single.php:24
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25
+#: template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""

@@ -1,0 +1,37 @@
+.slider {
+  overflow-x: hidden;
+  @include media-desktop {
+    max-width: 1200px;
+    @include center-block;
+    padding-left: var(--container-gap);
+    padding-right: var(--container-gap);
+
+  }
+}
+
+.slider__list {
+  @include reset-list;
+}
+
+li.slider__item {
+  height: auto;
+
+  @include media-desktop {
+    margin-right: 0;
+  }
+}
+
+.slider__control {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  gap: 10px;
+
+  @include media-mobile-xl {
+    margin-bottom: 20px;
+  }
+
+  @include media-desktop {
+    display: none;
+  }
+}

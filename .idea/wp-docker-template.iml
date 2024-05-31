@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/theme/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/eftec/bladeone" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/gettext/gettext" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/gettext/languages" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/mck89/peast" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/mustache/mustache" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/php-parallel-lint/php-parallel-lint" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/phpcompatibility/php-compatibility" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/phpcompatibility/phpcompatibility-paragonie" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/phpcompatibility/phpcompatibility-wp" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/wp-cli/i18n-command" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/wp-cli/mustangostang-spyc" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/wp-cli/php-cli-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/wp-cli/wp-cli" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/wp-coding-standards/wpcs" />
+      <excludeFolder url="file://$MODULE_DIR$/theme/vendor/wptrt/wpthemereview" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

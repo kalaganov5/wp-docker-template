@@ -1,0 +1,25 @@
+.header {
+  margin-bottom: 30px;
+  position: relative;
+
+  @include media-mobile-xl {
+    margin-bottom: 50px;
+  }
+}
+.header__container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  align-items: center;
+
+  @include media-laptop {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}

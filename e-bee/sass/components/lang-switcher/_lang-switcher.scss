@@ -1,0 +1,71 @@
+.header__lang-switcher {
+  position: relative;
+}
+
+.language-switcher {
+  @include reset-list;
+  position: absolute;
+  top: calc(100% + 10px); /* Добавляем немного отступа между кнопкой и списком */
+  left: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000; /* чтобы она отображалась над другими элементами */
+  width: auto; /* установите ширину по вашему усмотрению */
+
+  background-color: var(--color-light);
+
+  font-size: 18px;
+  text-transform: uppercase;
+
+  &.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.language-switcher__link {
+  display: block;
+  padding: 5px 20px;
+  color: var(--color-dark);
+
+  &--active {
+
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #f0f0f0;
+  }
+}
+
+.language-switcher__button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 18px;
+  color: var(--color-dark);
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+  }
+
+  svg {
+    @include transition(transform);
+  }
+
+  &.open {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}

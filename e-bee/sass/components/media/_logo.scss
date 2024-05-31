@@ -1,0 +1,30 @@
+.logo {
+  &--footer {
+    .logo__icon {
+      height: 50px;
+    }
+  }
+
+  @include media-laptop {
+    .logo__icon {
+      height: 80px;
+    }
+  }
+}
+
+.logo__icon {
+  height: 33px;
+  width: auto;
+
+  @include media-mobile-xl {
+    height: 45px;
+  }
+
+  @include media-laptop {
+    height: 60px;
+  }
+}
+
+.logo__link {
+  display: block;
+}

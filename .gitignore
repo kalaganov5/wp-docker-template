@@ -1,0 +1,14 @@
+*/node_modules/
+*/vendor/
+*/package-lock.json
+*/composer.lock
+
+*/.idea/
+/.idea/vcs.xml
+
+*/style.css
+*/style.css.map
+*/style-rtl.css
+/e-bee.zip
+/style.css
+/style.css.map

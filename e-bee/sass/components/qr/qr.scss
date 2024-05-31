@@ -1,0 +1,34 @@
+.qr__fixed {
+  display: none;
+
+  @include media-desktop-xl {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    display: block;
+    pointer-events: none;
+    z-index: 1000;
+    max-width: 160px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--color-light);
+  }
+}
+
+.qr__link {
+  @include media-desktop-xl {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 13px;
+  }
+}
+
+.qr__icon {
+  @include media-desktop-xl {
+    width: 100%;
+    height: auto;
+  }
+}

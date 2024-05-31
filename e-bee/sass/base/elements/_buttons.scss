@@ -1,0 +1,73 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border-radius: 3px;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  line-height: 1;
+  padding: 0.6em 1em 0.4em;
+  border: none;
+
+  &:hover {
+    background: var(--color-light);
+    color: var(--color-dark);
+  }
+
+  &:active,
+  &:focus {
+    background: var(--color-light);
+    color: var(--color-dark);
+  }
+}
+
+.button {
+  &--slide-control {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: var(--color-light);
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    @include transition(background-color);
+
+    &::after {
+      content: '';
+      height: 1em;
+      width: 1em;
+      background-color: var(--color-dark);
+      mask-image: url("./assets/images/icon-shevron.svg");
+      mask-size: 100%;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      display: block;
+    }
+
+    &--next {
+      transform: rotate(180deg);
+    }
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-dark);
+
+      &::after {
+        background-color: var(--color-light);
+      }
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: transparent;
+
+      &::after {
+        background-color: #D7D7D7;
+      }
+    }
+  }
+}

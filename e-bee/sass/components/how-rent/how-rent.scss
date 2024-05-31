@@ -1,0 +1,144 @@
+.how-rent {
+  @include block-gap;
+}
+
+ul.how-rent_list {
+  @include media-desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+.how-rent__item {
+  max-width: 290px;
+
+  @include media-mobile-xl {
+    max-width: 390px;
+  }
+
+  @include media-desktop {
+    max-width: 100%;
+    margin-right: 0 !important;
+  }
+}
+
+.how-rent__slider {
+  padding-left: var(--container-gap);
+  padding-right: var(--container-gap);
+}
+
+.how-rent__heading {
+  margin-top: 0;
+}
+
+.how-rent__card {
+  background-color: var(--color-light);
+  border-radius: 20px;
+  padding-top: 20px;
+  overflow: hidden;
+  position: relative;
+
+  height: calc(100% - 20px); // 20px padding-top
+
+  @include media-desktop {
+    display: grid;
+    grid-template-columns: 1fr minmax(235px, auto);
+    gap: 30px;
+    padding: 30px;
+    background-color: var(--color-dark);
+    height: auto;
+  }
+}
+
+.how-rent__body {
+  background-color: var(--color-dark);
+  color: var(--color-bg);
+  padding: 20px 20px 30px;
+  height: 100%;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  @include media-desktop {
+    height: auto;
+    align-self: end;
+    background-color: unset;
+  }
+}
+
+.how-rent__counter {
+  position: absolute;
+  opacity: 0.3;
+  font-size: 36px;
+  font-weight: 700;
+  top: 20px;
+  left: 10px;
+
+  color: var(--color-dark);
+
+  z-index: 1;
+
+  @include media-desktop {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 128px;
+    color: var(--color-light);
+  }
+}
+
+.how-rent__image-box {
+  @include center-block;
+  max-width: 150px;
+  z-index: 1;
+  position: relative;
+  height: auto;
+
+  @include media-desktop {
+    order: 1;
+    max-width: 476px;
+  }
+}
+
+.how-rent__image {
+  display: block;
+}
+
+.how-rent__text {
+  position: relative;
+  z-index: 1;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.how-rent__bg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 30px;
+
+  &--pc {
+    display: none;
+  }
+
+  @include media-mobile-xl {
+    top: 0;
+  }
+
+  @include media-desktop {
+    top: -80px;
+
+    display: none;
+
+    &--pc {
+      display: unset;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}

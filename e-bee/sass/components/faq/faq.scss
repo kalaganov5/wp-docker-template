@@ -1,0 +1,23 @@
+.faq {
+  @include block-gap;
+}
+
+.faq__heading {
+  font-size: 36px;
+
+  @include media-mobile-xl {
+    font-size: 40px;
+  }
+
+  @include media-laptop {
+    margin-top: 0;
+  }
+}
+
+.faq__container {
+  @include media-laptop {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: minmax(300px, auto) 1fr;
+  }
+}

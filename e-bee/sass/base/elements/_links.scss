@@ -1,0 +1,25 @@
+a {
+	color: var(--color-dark);
+	text-decoration-color: transparent;
+	@include transition();
+
+	&:visited {
+		color: var(--color-dark);
+		opacity: 0.7;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: var(--color-dark);
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
